@@ -1,0 +1,19 @@
+// Description.ext for Olympus 3
+disabledAI = 1;
+enableTargetDebug = 1;
+#include "script_component.hpp"
+#include "CfgEventHandlers.hpp"
+#include "CfgFunctions.hpp"
+#include "CfgSimulator.hpp"
+#include "dialogs\defines.hpp"
+#include "dialogs\patientSpawnMenu.hpp"
+nopop = true;
+
+class CfgDebriefingSections
+{
+    #include "\z\tfd\addons\adminmenu\debriefAdminLog.inc"
+    class acex_killTracker {
+        title = "ACEX Killed Events";
+        variable = "acex_killTracker_outputText";
+    };
+};

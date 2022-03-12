@@ -20,11 +20,11 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=3231;
+		nextID=3332;
 	};
 	class Camera
 	{
-		pos[]={15438.902,50.640331,9070.625};
+		pos[]={15412.942,50.640331,9066.6836};
 		dir[]={0.34612241,-0.40334517,0.84706372};
 		up[]={0.15256804,0.91504681,0.37337908};
 		aside[]={0.92570335,-1.5541445e-007,-0.37825611};
@@ -87890,11 +87890,11 @@ class Mission
 						};
 					};
 					id=20572;
-					atlOffset=-74.873306;
+					atlOffset=0.094837189;
 				};
 			};
 			id=7236;
-			atlOffset=-83.263138;
+			atlOffset=-2.4590759;
 		};
 		class Item64
 		{
@@ -184358,11 +184358,11 @@ class Mission
 						};
 					};
 					id=21689;
-					atlOffset=52.134777;
+					atlOffset=-0.92768097;
 				};
 			};
 			id=21472;
-			atlOffset=-11.121033;
+			atlOffset=1.1949463;
 		};
 		class Item856
 		{
