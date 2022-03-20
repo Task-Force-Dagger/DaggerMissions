@@ -4,15 +4,14 @@ enableTargetDebug = 1;
 #include "script_component.hpp"
 #include "CfgEventHandlers.hpp"
 #include "CfgFunctions.hpp"
-#include "CfgSimulator.hpp"
 #include "dialogs\defines.hpp"
-#include "dialogs\patientSpawnMenu.hpp"
-nopop = true;
 
-// https://github.com/acemod/ACEX/tree/master/addons/killtracker
-class CfgDebriefingSections {
+
+class CfgDebriefingSections
+{
+    #include "\z\tfd\addons\adminmenu\debriefAdminLog.inc"
     class acex_killTracker {
-        title = "Acex Killed Events";
+        title = "ACEX Killed Events";
         variable = "acex_killTracker_outputText";
     };
 };
