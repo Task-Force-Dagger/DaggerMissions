@@ -12,22 +12,22 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=830;
+		nextID=829;
 	};
 	class MarkerIDProvider
 	{
-		nextID=38;
+		nextID=37;
 	};
 	class LayerIndexProvider
 	{
-		nextID=61;
+		nextID=54;
 	};
 	class Camera
 	{
 		pos[]={5356.2446,514.66504,16921.5};
-		dir[]={0.083658554,-0.5211097,-0.84937972};
-		up[]={0.051078863,0.85348976,-0.51860029};
-		aside[]={-0.99518454,0,-0.098019406};
+		dir[]={0.083658785,-0.52111053,-0.84938085};
+		up[]={0.051078819,0.85348821,-0.5186016};
+		aside[]={-0.99518502,7.6834112e-009,-0.09801925};
 	};
 };
 binarizationWanted=0;
@@ -479,16 +479,6 @@ class AddonsMetaData
 		};
 	};
 };
-class DynamicSimulation
-{
-	class EnableRadiuses
-	{
-		Prop=750;
-		EmptyVehicle=650;
-		Vehicle=500;
-		Group=1200;
-	};
-};
 dlcs[]=
 {
 	"UK3CB_Factions",
@@ -514,9 +504,7 @@ class ScenarioData
 	{
 		gameType="Coop";
 	};
-	wreckManagerMode=2;
 	wreckRemovalMaxTime=3600;
-	corpseManagerMode=2;
 };
 class CustomAttributes
 {
@@ -538,14 +526,14 @@ class CustomAttributes
 							"STRING"
 						};
 					};
-					value="[[[],[[""CROSS_A"",""CROSS_A"",""ACRE_PRC148"",[],true],[""CROSS_B"",""CROSS_B"",""ACRE_PRC148"",[],true],[""CROSS_C"",""CROSS_C"",""ACRE_PRC148"",[],true],[""CSF_C2"",""CSF_C2"",""ACRE_PRC148"",[],true],[""JTF2_A"",""JTF2_A"",""ACRE_PRC148"",[],true],[""JTF2_B"",""JTF2_B"",""ACRE_PRC148"",[],true],[""CSOR_A"",""CSOR_A"",""ACRE_PRC148"",[],true],[""CSOR_B"",""CSOR_B"",""ACRE_PRC148"",[],true],[""CSOR_C"",""CSOR_C"",""ACRE_PRC148"",[],true],[""SOCOM"",""SOCOM"",""ACRE_PRC148"",[],true],[""DELTA_A"",""DELTA_A"",""ACRE_PRC148"",[],true],[""DELTA_B"",""DELTA_B"",""ACRE_PRC148"",[],true],[""DELTA_C"",""DELTA_C"",""ACRE_PRC148"",[],true],[""75RBTN_A"",""75RBTN_A"",""ACRE_PRC148"",[],true],[""75RBTN_B"",""75RBTN_B"",""ACRE_PRC148"",[],true],[""HQ_1"",""HQ_1"",""ACRE_PRC152"",[],true],[""HQ_2"",""HQ_2"",""ACRE_PRC152"",[],true],[""HQ_3"",""HQ_3"",""ACRE_PRC152"",[],true],[""CROSS_1"",""CROSS_1"",""ACRE_PRC152"",[],true],[""CROSS_2"",""CROSS_2"",""ACRE_PRC152"",[],true],[""CROSS_3"",""CROSS_3"",""ACRE_PRC152"",[],true],[""CSF_C2"",""CSF_C2_NET"",""ACRE_PRC152"",[],true],[""JTF2"",""JTF2"",""ACRE_PRC152"",[],true],[""CSOR"",""CSOR"",""ACRE_PRC152"",[],true],[""SOCOM_C2"",""SOCOM_C2"",""ACRE_PRC152"",[],true],[""DELTA"",""DELTA"",""ACRE_PRC152"",[],true],[""75RBNT"",""75RBNT"",""ACRE_PRC152"",[],true],[""TFD_C2"",""TFD_C2"",""ACRE_PRC117F"",[],true],[""AIR_C2_NET"",""AIR_C2_NET"",""ACRE_PRC117F"",[],true],[""AIR2GND_NET1"",""AIR2GND_NET1"",""ACRE_PRC117F"",[],true],[""AIR2GND_NET2"",""AIR2GND_NET2"",""ACRE_PRC117F"",[],true],[""FLIGHT_NET1"",""FLIGHT_NET1"",""ACRE_PRC117F"",[],true],[""FLIGHT_NET2"",""FLIGHT_NET2"",""ACRE_PRC117F"",[],true],[""FLIGHT_NET3"",""FLIGHT_NET3"",""ACRE_PRC117F"",[],true],[""CAS_NET1"",""CAS_NET1"",""ACRE_PRC117F"",[],true],[""CAS_NET2"",""CAS_NET2"",""ACRE_PRC117F"",[],true],[""CROSS_NET_X"",""CROSS_NET_X"",""ACRE_PRC117F"",[],true],[""CROSS_NET_Y"",""CROSS_NET_Y"",""ACRE_PRC117F"",[],true],[""CROSS_NET_Z"",""CROSS_NET_Y"",""ACRE_PRC117F"",[],true]]],[[],[[""CSF_C2"",""CSF_C2"",""ACRE_PRC148"",[],true],[""JTF2_A"",""JTF2_A"",""ACRE_PRC148"",[],true],[""JTF2_B"",""JTF2_B"",""ACRE_PRC148"",[],true],[""CSOR_A"",""CSOR_A"",""ACRE_PRC148"",[],true],[""CSOR_B"",""CSOR_B"",""ACRE_PRC148"",[],true],[""CSOR_C"",""CSOR_C"",""ACRE_PRC148"",[],true],[""CROSS_A"",""CROSS_A"",""ACRE_PRC148"",[],true],[""CROSS_B"",""CROSS_B"",""ACRE_PRC148"",[],true],[""CROSS_C"",""CROSS_C"",""ACRE_PRC148"",[],true],[""SOCOM"",""SOCOM"",""ACRE_PRC148"",[],true],[""DELTA_A"",""DELTA_A"",""ACRE_PRC148"",[],true],[""DELTA_B"",""DELTA_B"",""ACRE_PRC148"",[],true],[""DELTA_C"",""DELTA_C"",""ACRE_PRC148"",[],true],[""75RBTN_A"",""75RBTN_A"",""ACRE_PRC148"",[],true],[""75RBTN_B"",""75RBTN_B"",""ACRE_PRC148"",[],true],[""CSF_C2"",""CSF_C2_NET"",""ACRE_PRC152"",[],true],[""JTF2"",""JTF2"",""ACRE_PRC152"",[],true],[""CSOR"",""CSOR"",""ACRE_PRC152"",[],true],[""CROSS_1"",""CROSS_1"",""ACRE_PRC152"",[],true],[""CROSS_2"",""CROSS_2"",""ACRE_PRC152"",[],true],[""CROSS_3"",""CROSS_3"",""ACRE_PRC152"",[],true],[""SOCOM_C2"",""SOCOM_C2"",""ACRE_PRC152"",[],true],[""DELTA"",""DELTA"",""ACRE_PRC152"",[],true],[""75RBNT"",""75RBNT"",""ACRE_PRC152"",[],true],[""TFD_C2"",""TFD_C2"",""ACRE_PRC117F"",[],true],[""AIR_C2_NET"",""AIR_C2_NET"",""ACRE_PRC117F"",[],true],[""AIR2GND_NET1"",""AIR2GND_NET1"",""ACRE_PRC117F"",[],true],[""AIR2GND_NET2"",""AIR2GND_NET2"",""ACRE_PRC117F"",[],true],[""FLIGHT_NET1"",""FLIGHT_NET1"",""ACRE_PRC117F"",[],true],[""FLIGHT_NET2"",""FLIGHT_NET2"",""ACRE_PRC117F"",[],true],[""FLIGHT_NET3"",""FLIGHT_NET3"",""ACRE_PRC117F"",[],true],[""CAS_NET1"",""CAS_NET1"",""ACRE_PRC117F"",[],true],[""CAS_NET2"",""CAS_NET2"",""ACRE_PRC117F"",[],true],[""CROSS_NET_X"",""CROSS_NET_X"",""ACRE_PRC117F"",[],true],[""CROSS_NET_Y"",""CROSS_NET_Y"",""ACRE_PRC117F"",[],true],[""CROSS_NET_Z"",""CROSS_NET_Y"",""ACRE_PRC117F"",[],true]]],[[],[[""SOCOM"",""SOCOM"",""ACRE_PRC148"",[],true],[""DELTA_A"",""DELTA_A"",""ACRE_PRC148"",[],true],[""DELTA_B"",""DELTA_B"",""ACRE_PRC148"",[],true],[""DELTA_C"",""DELTA_C"",""ACRE_PRC148"",[],true],[""75RBTN_A"",""75RBTN_A"",""ACRE_PRC148"",[],true],[""75RBTN_B"",""75RBTN_B"",""ACRE_PRC148"",[],true],[""CROSS_A"",""CROSS_A"",""ACRE_PRC148"",[],true],[""CROSS_B"",""CROSS_B"",""ACRE_PRC148"",[],true],[""CROSS_C"",""CROSS_C"",""ACRE_PRC148"",[],true],[""CSF_C2"",""CSF_C2"",""ACRE_PRC148"",[],true],[""JTF2_A"",""JTF2_A"",""ACRE_PRC148"",[],true],[""JTF2_B"",""JTF2_B"",""ACRE_PRC148"",[],true],[""CSOR_A"",""CSOR_A"",""ACRE_PRC148"",[],true],[""CSOR_B"",""CSOR_B"",""ACRE_PRC148"",[],true],[""CSOR_C"",""CSOR_C"",""ACRE_PRC148"",[],true],[""SOCOM_C2"",""SOCOM_C2"",""ACRE_PRC152"",[],true],[""DELTA"",""DELTA"",""ACRE_PRC152"",[],true],[""75RBNT"",""75RBNT"",""ACRE_PRC152"",[],true],[""CROSS_1"",""CROSS_1"",""ACRE_PRC152"",[],true],[""CROSS_2"",""CROSS_2"",""ACRE_PRC152"",[],true],[""CROSS_3"",""CROSS_3"",""ACRE_PRC152"",[],true],[""CSF_C2"",""CSF_C2_NET"",""ACRE_PRC152"",[],true],[""JTF2"",""JTF2"",""ACRE_PRC152"",[],true],[""CSOR"",""CSOR"",""ACRE_PRC152"",[],true],[""TFD_C2"",""TFD_C2"",""ACRE_PRC117F"",[],true],[""AIR_C2_NET"",""AIR_C2_NET"",""ACRE_PRC117F"",[],true],[""AIR2GND_NET1"",""AIR2GND_NET1"",""ACRE_PRC117F"",[],true],[""AIR2GND_NET2"",""AIR2GND_NET2"",""ACRE_PRC117F"",[],true],[""FLIGHT_NET1"",""FLIGHT_NET1"",""ACRE_PRC117F"",[],true],[""FLIGHT_NET2"",""FLIGHT_NET2"",""ACRE_PRC117F"",[],true],[""FLIGHT_NET3"",""FLIGHT_NET3"",""ACRE_PRC117F"",[],true],[""CAS_NET1"",""CAS_NET1"",""ACRE_PRC117F"",[],true],[""CAS_NET2"",""CAS_NET2"",""ACRE_PRC117F"",[],true],[""CROSS_NET_X"",""CROSS_NET_X"",""ACRE_PRC117F"",[],true],[""CROSS_NET_Y"",""CROSS_NET_Y"",""ACRE_PRC117F"",[],true],[""CROSS_NET_Z"",""CROSS_NET_Y"",""ACRE_PRC117F"",[],true]]],[[],[[""CROSS_A"",""CROSS_A"",""ACRE_PRC148"",[],true],[""CROSS_B"",""CROSS_B"",""ACRE_PRC148"",[],true],[""CROSS_C"",""CROSS_C"",""ACRE_PRC148"",[],true],[""CSF_C2"",""CSF_C2"",""ACRE_PRC148"",[],true],[""JTF2_A"",""JTF2_A"",""ACRE_PRC148"",[],true],[""JTF2_B"",""JTF2_B"",""ACRE_PRC148"",[],true],[""CSOR_A"",""CSOR_A"",""ACRE_PRC148"",[],true],[""CSOR_B"",""CSOR_B"",""ACRE_PRC148"",[],true],[""CSOR_C"",""CSOR_C"",""ACRE_PRC148"",[],true],[""SOCOM"",""SOCOM"",""ACRE_PRC148"",[],true],[""DELTA_A"",""DELTA_A"",""ACRE_PRC148"",[],true],[""DELTA_B"",""DELTA_B"",""ACRE_PRC148"",[],true],[""DELTA_C"",""DELTA_C"",""ACRE_PRC148"",[],true],[""75RBTN_A"",""75RBTN_A"",""ACRE_PRC148"",[],true],[""75RBTN_B"",""75RBTN_B"",""ACRE_PRC148"",[],true],[""JSOW"",""JSOW"",""ACRE_PRC152"",[],true],[""CREW_1"",""CREW_1"",""ACRE_PRC152"",[],true],[""CREW_2"",""CREW_2"",""ACRE_PRC152"",[],true],[""CREW_3"",""CREW_3"",""ACRE_PRC152"",[],true],[""CREW_4"",""CREW_4"",""ACRE_PRC152"",[],true],[""CROSS_1"",""CROSS_1"",""ACRE_PRC152"",[],true],[""CROSS_2"",""CROSS_2"",""ACRE_PRC152"",[],true],[""CROSS_3"",""CROSS_3"",""ACRE_PRC152"",[],true],[""TFD_C2"",""TFD_C2"",""ACRE_PRC117F"",[],true],[""AIR_C2_NET"",""AIR_C2_NET"",""ACRE_PRC117F"",[],true],[""AIR2GND_NET1"",""AIR2GND_NET1"",""ACRE_PRC117F"",[],true],[""AIR2GND_NET2"",""AIR2GND_NET2"",""ACRE_PRC117F"",[],true],[""FLIGHT_NET1"",""FLIGHT_NET1"",""ACRE_PRC117F"",[],true],[""FLIGHT_NET2"",""FLIGHT_NET2"",""ACRE_PRC117F"",[],true],[""FLIGHT_NET3"",""FLIGHT_NET3"",""ACRE_PRC117F"",[],true],[""CAS_NET1"",""CAS_NET1"",""ACRE_PRC117F"",[],true],[""CAS_NET2"",""CAS_NET2"",""ACRE_PRC117F"",[],true],[""CROSS_NET_X"",""CROSS_NET_X"",""ACRE_PRC117F"",[],true],[""CROSS_NET_Y"",""CROSS_NET_Y"",""ACRE_PRC117F"",[],true],[""CROSS_NET_Z"",""CROSS_NET_Y"",""ACRE_PRC117F"",[],true]]],[[],[[""TRAINING"",""TRAINING"",""ACRE_PRC148"",[],true],[""CANSOFCOM"",""CANSOFCOM"",""ACRE_PRC148"",[],true],[""USASOC"",""USASOC"",""ACRE_PRC148"",[],true],[""CROSS_A"",""CROSS_A"",""ACRE_PRC148"",[],true],[""CROSS_B"",""CROSS_B"",""ACRE_PRC148"",[],true],[""CROSS_C"",""CROSS_C"",""ACRE_PRC148"",[],true],[""TRAINING_1"",""TRAINING_1"",""ACRE_PRC152"",[],true],[""TRAINING_2"",""TRAINING_2"",""ACRE_PRC152"",[],true],[""CROSS_1"",""CROSS_1"",""ACRE_PRC152"",[],true],[""CROSS_2"",""CROSS_2"",""ACRE_PRC152"",[],true],[""CROSS_3"",""CROSS_3"",""ACRE_PRC152"",[],true],[""TFD_C2"",""TFD_C2"",""ACRE_PRC117F"",[],true],[""AIR_C2_NET"",""AIR_C2_NET"",""ACRE_PRC117F"",[],true],[""AIR2GND_NET1"",""AIR2GND_NET1"",""ACRE_PRC117F"",[],true],[""AIR2GND_NET2"",""AIR2GND_NET2"",""ACRE_PRC117F"",[],true],[""FLIGHT_NET1"",""FLIGHT_NET1"",""ACRE_PRC117F"",[],true],[""FLIGHT_NET2"",""FLIGHT_NET2"",""ACRE_PRC117F"",[],true],[""FLIGHT_NET3"",""FLIGHT_NET3"",""ACRE_PRC117F"",[],true],[""CAS_NET1"",""CAS_NET1"",""ACRE_PRC117F"",[],true],[""CAS_NET2"",""CAS_NET2"",""ACRE_PRC117F"",[],true],[""CROSS_NET_X"",""CROSS_NET_X"",""ACRE_PRC117F"",[],true],[""CROSS_NET_Y"",""CROSS_NET_Y"",""ACRE_PRC117F"",[],true],[""CROSS_NET_Z"",""CROSS_NET_Y"",""ACRE_PRC117F"",[],true]]]]";
+					value="[[[],[[""JOINT_A"",""JOINT_A"",""ACRE_PRC148"",[],true],[""JOINT_B"",""JOINT_B"",""ACRE_PRC148"",[],true],[""JOINT_C"",""JOINT_C"",""ACRE_PRC148"",[],true],[""HQ_1"",""HQ_1"",""ACRE_PRC152"",[],false],[""HQ_2"",""HQ_2"",""ACRE_PRC152"",[],false],[""HQ_3"",""HQ_3"",""ACRE_PRC152"",[],false],[""JOINT_1"",""JOINT_1"",""ACRE_PRC152"",[],true],[""JOINT_2"",""JOINT_2"",""ACRE_PRC152"",[],true],[""CROSS_NET"",""CROSS_NET"",""ACRE_PRC117F"",[],true],[""AIR_C2_NET"",""AIR_C2_NET"",""ACRE_PRC117F"",[],true],[""AIR2GND_NET1"",""AIR2GND_NET1"",""ACRE_PRC117F"",[],true],[""AIR2GND_NET2"",""AIR2GND_NET2"",""ACRE_PRC117F"",[],true],[""FLIGHT_NET1"",""FLIGHT_NET1"",""ACRE_PRC117F"",[],true],[""FLIGHT_NET2"",""FLIGHT_NET2"",""ACRE_PRC117F"",[],true],[""FLIGHT_NET3"",""FLIGHT_NET3"",""ACRE_PRC117F"",[],true],[""CAS_NET1"",""CAS_NET1"",""ACRE_PRC117F"",[],true],[""CAS_NET2"",""CAS_NET2"",""ACRE_PRC117F"",[],true],[""JOINT_NET1"",""JOINT_NET1"",""ACRE_PRC117F"",[],true],[""JOINT_NET2"",""JOINT_NET2"",""ACRE_PRC117F"",[],true]]],[[],[[""CSF_C2"",""CSF_C2"",""ACRE_PRC148"",[],false],[""JTF_A"",""JTF_A"",""ACRE_PRC148"",[],false],[""JTF_B"",""JTF_B"",""ACRE_PRC148"",[],false],[""CSOR_A"",""CSOR_A"",""ACRE_PRC148"",[],false],[""CSOR_B"",""CSOR_B"",""ACRE_PRC148"",[],false],[""CSOR_C"",""CSOR_C"",""ACRE_PRC148"",[],false],[""JOINT_A"",""JOINT_A"",""ACRE_PRC148"",[],true],[""JOINT_B"",""JOINT_B"",""ACRE_PRC148"",[],true],[""JOINT_C"",""JOINT_C"",""ACRE_PRC148"",[],true],[""CSF_C2"",""CSF_C2_NET"",""ACRE_PRC152"",[],false],[""JTF"",""JTF"",""ACRE_PRC152"",[],false],[""CSOR"",""CSOR"",""ACRE_PRC152"",[],false],[""JOINT_1"",""JOINT_1"",""ACRE_PRC152"",[],true],[""JOINT_2"",""JOINT_2"",""ACRE_PRC152"",[],true],[""CROSS_NET"",""CROSS_NET"",""ACRE_PRC117F"",[],true],[""AIR_C2_NET"",""AIR_C2_NET"",""ACRE_PRC117F"",[],true],[""AIR2GND_NET1"",""AIR2GND_NET1"",""ACRE_PRC117F"",[],true],[""AIR2GND_NET2"",""AIR2GND_NET2"",""ACRE_PRC117F"",[],true],[""FLIGHT_NET1"",""FLIGHT_NET1"",""ACRE_PRC117F"",[],true],[""FLIGHT_NET2"",""FLIGHT_NET2"",""ACRE_PRC117F"",[],true],[""FLIGHT_NET3"",""FLIGHT_NET3"",""ACRE_PRC117F"",[],true],[""CAS_NET1"",""CAS_NET1"",""ACRE_PRC117F"",[],true],[""CAS_NET2"",""CAS_NET2"",""ACRE_PRC117F"",[],true],[""JOINT_NET1"",""JOINT_NET1"",""ACRE_PRC117F"",[],true],[""JOINT_NET2"",""JOINT_NET2"",""ACRE_PRC117F"",[],true]]],[[],[[""SOCOM_C2"",""SOCOM_C2"",""ACRE_PRC148"",[],false],[""DELTA_A"",""DELTA_A"",""ACRE_PRC148"",[],false],[""DELTA_B"",""DELTA_B"",""ACRE_PRC148"",[],false],[""DELTA_C"",""DELTA_C"",""ACRE_PRC148"",[],false],[""75RBTN_A"",""75RBTN_A"",""ACRE_PRC148"",[],false],[""75RBTN_B"",""75RBTN_B"",""ACRE_PRC148"",[],false],[""JOINT_A"",""JOINT_A"",""ACRE_PRC148"",[],true],[""JOINT_B"",""JOINT_B"",""ACRE_PRC148"",[],true],[""JOINT_C"",""JOINT_C"",""ACRE_PRC148"",[],true],[""SOCOM_C2"",""SOCOM_C2"",""ACRE_PRC152"",[],false],[""DELTA"",""DELTA"",""ACRE_PRC152"",[],false],[""75RBNT"",""75RBNT"",""ACRE_PRC152"",[],false],[""JOINT_1"",""JOINT_1"",""ACRE_PRC152"",[],true],[""JOINT_2"",""JOINT_2"",""ACRE_PRC152"",[],true],[""CROSS_NET"",""CROSS_NET"",""ACRE_PRC117F"",[],true],[""AIR_C2_NET"",""AIR_C2_NET"",""ACRE_PRC117F"",[],true],[""AIR2GND_NET1"",""AIR2GND_NET1"",""ACRE_PRC117F"",[],true],[""AIR2GND_NET2"",""AIR2GND_NET2"",""ACRE_PRC117F"",[],true],[""FLIGHT_NET1"",""FLIGHT_NET1"",""ACRE_PRC117F"",[],true],[""FLIGHT_NET2"",""FLIGHT_NET2"",""ACRE_PRC117F"",[],true],[""FLIGHT_NET3"",""FLIGHT_NET3"",""ACRE_PRC117F"",[],true],[""CAS_NET1"",""CAS_NET1"",""ACRE_PRC117F"",[],true],[""CAS_NET2"",""CAS_NET2"",""ACRE_PRC117F"",[],true],[""JOINT_NET1"",""JOINT_NET1"",""ACRE_PRC117F"",[],true],[""JOINT_NET2"",""JOINT_NET2"",""ACRE_PRC117F"",[],true]]],[[],[[""JOINT_A"",""JOINT_A"",""ACRE_PRC148"",[],true],[""JOINT_B"",""JOINT_B"",""ACRE_PRC148"",[],true],[""JOINT_C"",""JOINT_C"",""ACRE_PRC148"",[],true],[""JSOW"",""JSOW"",""ACRE_PRC152"",[],false],[""CREW_1"",""CREW_1"",""ACRE_PRC152"",[],false],[""CREW_2"",""CREW_2"",""ACRE_PRC152"",[],false],[""CREW_3"",""CREW_4"",""ACRE_PRC152"",[],false],[""CREW_3"",""CREW_4"",""ACRE_PRC152"",[],false],[""JOINT_1"",""JOINT_1"",""ACRE_PRC152"",[],true],[""JOINT_2"",""JOINT_2"",""ACRE_PRC152"",[],true],[""CROSS_NET"",""CROSS_NET"",""ACRE_PRC117F"",[],true],[""AIR_C2_NET"",""AIR_C2_NET"",""ACRE_PRC117F"",[],true],[""AIR2GND_NET1"",""AIR2GND_NET1"",""ACRE_PRC117F"",[],true],[""AIR2GND_NET2"",""AIR2GND_NET2"",""ACRE_PRC117F"",[],true],[""FLIGHT_NET1"",""FLIGHT_NET1"",""ACRE_PRC117F"",[],true],[""FLIGHT_NET2"",""FLIGHT_NET2"",""ACRE_PRC117F"",[],true],[""FLIGHT_NET3"",""FLIGHT_NET3"",""ACRE_PRC117F"",[],true],[""CAS_NET1"",""CAS_NET1"",""ACRE_PRC117F"",[],true],[""CAS_NET2"",""CAS_NET2"",""ACRE_PRC117F"",[],true],[""JOINT_NET1"",""JOINT_NET1"",""ACRE_PRC117F"",[],true],[""JOINT_NET2"",""JOINT_NET2"",""ACRE_PRC117F"",[],true]]],[[],[[""TRAINING"",""TRAINING"",""ACRE_PRC148"",[],false],[""CANSOFCOM"",""CANSOFCOM"",""ACRE_PRC148"",[],false],[""USASOC"",""USASOC"",""ACRE_PRC148"",[],false],[""JOINT_A"",""JOINT_A"",""ACRE_PRC148"",[],true],[""JOINT_B"",""JOINT_B"",""ACRE_PRC148"",[],true],[""JOINT_C"",""JOINT_C"",""ACRE_PRC148"",[],true],[""TRAIN_NET1"",""TRAIN_NET1"",""ACRE_PRC152"",[],false],[""TRAIN_NET2"",""TRAIN_NET2"",""ACRE_PRC152"",[],false],[""CROSS_NET"",""CROSS_NET"",""ACRE_PRC117F"",[],true],[""AIR_C2_NET"",""AIR_C2_NET"",""ACRE_PRC117F"",[],true],[""AIR2GND_NET1"",""AIR2GND_NET1"",""ACRE_PRC117F"",[],true],[""AIR2GND_NET2"",""AIR2GND_NET2"",""ACRE_PRC117F"",[],true],[""FLIGHT_NET1"",""FLIGHT_NET1"",""ACRE_PRC117F"",[],true],[""FLIGHT_NET2"",""FLIGHT_NET2"",""ACRE_PRC117F"",[],true],[""FLIGHT_NET3"",""FLIGHT_NET3"",""ACRE_PRC117F"",[],true],[""CAS_NET1"",""CAS_NET1"",""ACRE_PRC117F"",[],true],[""CAS_NET2"",""CAS_NET2"",""ACRE_PRC117F"",[],true],[""JOINT_NET1"",""JOINT_NET1"",""ACRE_PRC117F"",[],true],[""JOINT_NET2"",""JOINT_NET2"",""ACRE_PRC117F"",[],true]]]]";
 				};
 			};
 		};
 		class Attribute1
 		{
 			property="TFD_AcreNetworkEnabled";
-			expression="true";
+			expression="false";
 			class Value
 			{
 				class data
@@ -564,7 +552,7 @@ class CustomAttributes
 		class Attribute2
 		{
 			property="TFD_AcreBabelEnabled";
-			expression="true";
+			expression="false";
 			class Value
 			{
 				class data
@@ -842,7 +830,7 @@ class CustomAttributes
 							"BOOL"
 						};
 					};
-					value=0;
+					value=1;
 				};
 			};
 		};
@@ -889,33 +877,14 @@ class CustomAttributes
 										"STRING"
 									};
 								};
-								value="tfd_respawn_default";
+								value="TFD_RespawnOnStartPosition";
 							};
 						};
 					};
 				};
 			};
 		};
-		class Attribute3
-		{
-			property="SharedObjectives";
-			expression="if (isMultiplayer) then {[_value] spawn bis_fnc_sharedObjectives;};";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"SCALAR"
-						};
-					};
-					value=2;
-				};
-			};
-		};
-		nAttributes=4;
+		nAttributes=3;
 	};
 	class Category2
 	{
@@ -3655,7 +3624,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=247;
+		items=246;
 		class Item0
 		{
 			dataType="Marker";
@@ -8320,7 +8289,7 @@ class Mission
 		class Item73
 		{
 			dataType="Marker";
-			position[]={4990.917,570.3432,17489.051};
+			position[]={4990.748,570.3432,17488.713};
 			name="marker_35";
 			type="b_mas_can_sof";
 			id=269;
@@ -9234,7 +9203,7 @@ class Mission
 			};
 			id=306;
 			type="Land_Bandage_F";
-			atlOffset=0.023132324;
+			atlOffset=0.0012512207;
 		};
 		class Item92
 		{
@@ -13534,7 +13503,6 @@ class Mission
 					};
 					id=527;
 					type="Land_Bandage_F";
-					atlOffset=0.021972656;
 				};
 				class Item27
 				{
@@ -13552,7 +13520,6 @@ class Mission
 					};
 					id=528;
 					type="Land_Bandage_F";
-					atlOffset=0.021942139;
 				};
 				class Item28
 				{
@@ -13625,7 +13592,7 @@ class Mission
 				};
 			};
 			id=533;
-			atlOffset=0.00024414063;
+			atlOffset=-0.00076293945;
 		};
 		class Item218
 		{
@@ -36410,14 +36377,6 @@ class Mission
 				};
 				nAttributes=2;
 			};
-		};
-		class Item246
-		{
-			dataType="Marker";
-			position[]={4998.4629,570.38007,17508.389};
-			name="marker_37";
-			type="b_hq";
-			id=829;
 		};
 	};
 	class Connections
