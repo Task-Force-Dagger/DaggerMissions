@@ -6,10 +6,11 @@ enableTargetDebug = 1;
 #include "CfgFunctions.hpp"
 nopop = true;
 
-// https://github.com/acemod/ACEX/tree/master/addons/killtracker
-class CfgDebriefingSections {
+class CfgDebriefingSections
+{
+    #include "\z\tfd\addons\adminmenu\debriefAdminLog.inc"
     class acex_killTracker {
-        title = "Acex Killed Events";
+        title = "ACEX Killed Events";
         variable = "acex_killTracker_outputText";
     };
 };

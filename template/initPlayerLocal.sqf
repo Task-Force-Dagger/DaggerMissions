@@ -3,8 +3,6 @@
 
 if (!isDedicated) then {waitUntil {!isNull player && isPlayer player};};
 
-nul = [] execVM "EHL\EHL.sqf";
-
 // Disable CUP street lights based on lighting levels (bad performance script)
 CUP_stopLampCheck = true;
 
